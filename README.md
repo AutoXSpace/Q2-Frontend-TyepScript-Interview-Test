@@ -6,7 +6,7 @@ for AutoX Frontend Interview Test
 
 > Expect result:
 > 
-[![asciicast](https://github.com/AutoXSpace/Frontend-Level1/blob/f8e75827476ac37fa1b660af85c82fbf198ed616/public/q1-fe-exam-thumbnail.png)](https://github.com/AutoXSpace/Frontend-Level1/assets/151896391/b10f3851-d2d2-4efb-9779-5e2a7cdc62eb)
+[![Watch Video](https://github.com/AutoXSpace/Frontend-Level1/blob/f8e75827476ac37fa1b660af85c82fbf198ed616/public/q1-fe-exam-thumbnail.png)](https://github.com/AutoXSpace/Frontend-Level1/assets/151896391/b10f3851-d2d2-4efb-9779-5e2a7cdc62eb)
 
 
 ---
