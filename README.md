@@ -5,7 +5,7 @@ for AutoX Frontend Interview Test
 ## **Create an Employee Information module as shown below:**
 
 > Expect result:
-[![Watch the video](https://github.com/AutoXSpace/Frontend-Level1/assets/151896391/bba692c8-01cc-440f-bb40-9b49e2568d43)](https://github.com/AutoXSpace/Frontend-Level1/assets/151896391/b10f3851-d2d2-4efb-9779-5e2a7cdc62eb)
+[![asciicast](https://github.com/AutoXSpace/Frontend-Level1/blob/67f94d041124f9c3e7419a416391c3f812f22f9b/public/q1-fe-exam-thumbnail.png)](https://github.com/AutoXSpace/Frontend-Level1/assets/151896391/b10f3851-d2d2-4efb-9779-5e2a7cdc62eb)
 
 
 ---
