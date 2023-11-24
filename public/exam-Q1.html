@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoX Interviee Test</title>
+</head>
+<body>
+<h1 id="q1.-react-employee-information"><strong>Q1. React: Employee
+Information (45 mins)</strong></h1>
+<h2
+id="create-an-employee-information-module-as-shown-below"><strong>Create
+an Employee Information module as shown below:</strong></h2><br />
+<ul>
+<p> Expect result:</p> 
+</lu>
+<ul>
+<p>
+<video width="320" height="240" autoplay>
+  <source src="q1-fe-video.mp4" type="video/mp4">
+</video>
+</p>
+</ul>
+<br />
+<hr />
+<h2 id="requirements-and-conditions">Requirements and Conditions</h2>
+<h3
+id="there-is-a-reusable-component-in-the-module-named-dropdown"><strong>1.
+There is a reusable component in the module named
+Dropdown:</strong></h3>
+<ul>
+<li><p>It renders a <code style="color:#FF8C00;">&lt;select&gt;</code> element.</p></li>
+<li><p>It receives 3 props:</p>
+<p><br />
+</p>
+<ul>
+<li><p>labelText - used to render the default option in the dropdown</p>
+<p><br />
+</p></li>
+<li><p>options - This is an array of strings where each object is
+rendered as an option in the dropdown. Each option should have a value
+equal to object instance (string).</p>
+<p><br />
+</p></li>
+<li><p>onChange - The onChange function to be called on option selection
+to pass the selected value to the parent.</p></li>
+</ul></li><br />
+</ul>
+<h3 id="the-module-must-have-the-following-functionalities"><strong>2.
+The module must have the following functionalities:</strong></h3>
+<ul>
+<li><p>It renders 2 Dropdown components.</p>
+<p>
+</p></li>
+<li><p>The first Dropdown component is used to render country options.
+When a country is selected it should be rendered as:</p></li>
+</ul><br />
+<ul><p><ul><p>
+<div class="sourceCode" id="cb1" style="color:#FF8C00;"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>label data<span class="op">-</span>testid<span class="op">=</span><span class="st">&quot;country-selected&quot;</span><span class="op">&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Country Selected<span class="op">:</span> <span class="op">&lt;</span>selectedCountry<span class="op">&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;/</span>label<span class="op">&gt;</span></span></code></pre></div>
+</p></ul></p></ul><br />
+<ul>
+<li>The second Dropdown component is used to render language options.
+When a language is selected it should be rendered as:</li>
+</ul>
+<p><ul><p><ul>
+<div class="sourceCode" id="cb2" style="color:#FF8C00;"><pre
+class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb2-1" ><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span> label data<span class="op">-</span>testid<span class="op">=</span><span class="st">&quot;language-selected&quot;</span><span class="op">&gt;</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>Language Selected<span class="op">:</span> <span class="op">&lt;</span>selectedLanguage<span class="op">&gt;</span> </span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;/</span>label<span class="op">&gt;</span></span></code></pre></div>
+</p></ul></p></ul><br />
+<h3
+id="the-following-data-testid-attributes-are-required-in-the-component-for-the-tests-to-pass"><strong>3.
+The following data-testid attributes are required in the component for
+the tests to pass:</strong></h3>
+<ul>
+<li><p>The div containing country options dropdown:
+<code style="color:#FF8C00;">'country-options'</code></p>
+<p><br />
+</p></li>
+<li><p>The div containing language options dropdown:
+<code style="color:#FF8C00;">'language-options'</code></p>
+<p><br />
+</p></li>
+<li><p>The label rendering selected country:
+<code style="color:#FF8C00;">'country-selected'</code></p>
+<p><br />
+</p></li>
+<li><p>The label rendering selected language:
+<code style="color:#FF8C00;">'language-selected'</code></p>
+<p><br />
+</p></li>
+<li><p>Inside the Dropdown component select element:
+<code style="color:#FF8C00;">'dropdown'</code></p></li>
+</ul><br />
+<div class="info">
+<p>*Please note that the component has the data-testid attributes for
+test cases, certain classes and ids for rendering purposes. They should
+not be changed.</p><br />
+</div>
+<hr />
+<h2><p><strong>Software Instructions</strong></p></h2>
+<blockquote>
+<p>The question(s) requires <strong>Node 14 LTS or
+above</strong></p>
+<h3 id="download-install-node.js"><a
+href="https://nodejs.org/en/download/">Download &amp; Install
+Node.JS</a></h3>
+<p><br />
+</p>
+</blockquote>
+<h2 id="git-instructions">Git Instructions</h2>
+<blockquote>
+<p>Use the following commands to work with this project</p><br />
+</blockquote>
+<div class="tip">
+<ul>
+<p><strong>Run:</strong></p>
+<pre><code style="color:#FF8C00;">npm start</code></pre><br />
+</ul>
+</div>
+<div class="tip">
+<ul>
+<p><strong>Test:</strong></p>
+<pre><code style="color:#FF8C00;">npm test</code></pre><br />
+</ul>
+</div>
+<div class="tip">
+<ul>
+<p><strong>Install:</strong></p>
+<pre><code style="color:#FF8C00;">npm install</code></pre><br />
+</ul>
+</div><br /><br />
+<h2 id="good-luck">🤟🏻🤟🏻 Good Luck 🤟🏻🤟🏻</h2>
+</body>
+</html>
