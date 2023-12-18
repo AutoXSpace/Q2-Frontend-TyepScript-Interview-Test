@@ -1,6 +1,6 @@
 # Frontend-Level1
 for AutoX Frontend Interview Test
- # **Q1. React: Employee Information**
+ # **Q2. React: Employee Information**
 
 ## **Create an Employee Information module as shown below:**
 
