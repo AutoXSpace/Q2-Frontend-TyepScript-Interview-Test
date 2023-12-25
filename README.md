@@ -77,6 +77,63 @@ Language Selected: <selectedLanguage>
 **Please note that the component has the data-testid attributes for test cases, certain classes and ids for rendering purposes. They should not be changed.
 
 
+### **4. Input Data for test:**
+
+```
+
+1. Default Country option: "Select Country"
+
+2. Country data:
+ [
+    "Armenia",
+    "Australia",
+    "Austria",
+    "Azerbaijan",
+    "Burkina Faso",
+    "Burundi",
+    "Cabo Verde",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "Central African Republic",
+    "Chad",
+    "Chile",
+    "China",
+    "Colombia",
+    "Comoros",
+    "Congo, Democratic Republic of the",
+    "Congo, Republic of the",
+    "Costa Rica",
+    "Cote d'Ivoire",
+    "Croatia",
+    "Thailand"
+]
+```
+
+
+```
+
+3. Default Language option: "Select Country"
+
+4. Language data:
+
+[
+  "English",
+  "German",
+  "Azerbaijani",
+  "Arabic",
+  "Bengali",
+  "Belarusian",
+  "Russian",
+  "Dutch",
+  "Dzongkha",
+  "Spanish",
+  "Quechua",
+  "Aymara",
+  "Thai"
+]
+```
+
 ---
 
 
