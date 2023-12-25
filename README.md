@@ -90,21 +90,7 @@ Language Selected: <selectedLanguage>
     "Austria",
     "Azerbaijan",
     "Burkina Faso",
-    "Burundi",
-    "Cabo Verde",
-    "Cambodia",
-    "Cameroon",
-    "Canada",
-    "Central African Republic",
-    "Chad",
-    "Chile",
-    "China",
-    "Colombia",
-    "Comoros",
-    "Congo, Democratic Republic of the",
-    "Congo, Republic of the",
     "Costa Rica",
-    "Cote d'Ivoire",
     "Croatia",
     "Thailand"
 ]
@@ -126,10 +112,6 @@ Language Selected: <selectedLanguage>
   "Belarusian",
   "Russian",
   "Dutch",
-  "Dzongkha",
-  "Spanish",
-  "Quechua",
-  "Aymara",
   "Thai"
 ]
 ```
