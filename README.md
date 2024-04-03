@@ -19,13 +19,13 @@ for AutoX Frontend Interview Test
 * It receives 3 props:
 
   
-  * labelText - used to render the default option in the dropdown
+  * `labelText` - used to render the default option in the dropdown
 
     
-  * options - This is an array of strings where each object is rendered as an option in the dropdown. Each option should have a value equal to object instance (string).
+  * `options` - This is an array of strings where each object is rendered as an option in the dropdown. Each option should have a value equal to object instance (string).
 
     
-  * onChange - The onChange function to be called on option 	selection to pass the selected value to the parent.
+  * `onChange` - The onChange function to be called on option selection to pass the selected value to the parent.
 
 
 ### **2. The module must have the following functionalities:**
