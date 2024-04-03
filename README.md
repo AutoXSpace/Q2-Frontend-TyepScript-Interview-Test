@@ -58,16 +58,16 @@ Language Selected: <selectedLanguage>
 ### **3. The following data-testid attributes are required in the component for the tests to pass:**
 
 
-* The div containing country options dropdown: `'country-options'`
+* The `div` containing country options dropdown: `'country-options'`
 
   
-* The div containing language options dropdown: `'language-options'`
+* The `div` containing language options dropdown: `'language-options'`
 
   
-* The label rendering selected country: `'country-selected'`
+* The `label` rendering selected country: `'country-selected'`
 
   
-* The label rendering selected language: `'language-selected'`
+* The `label` rendering selected language: `'language-selected'`
 
   
 * Inside the Dropdown component select element: `'dropdown'`
